@@ -1,0 +1,6 @@
+{
+  "name": "wrapper_obnl",
+  "queues": {
+    "coside.cosim.simu": "on_cosim"
+  }
+}
