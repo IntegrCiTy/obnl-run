@@ -1,7 +1,7 @@
 from setuptools import setup
 import platform
 
-setup(name='obnl-core',
+setup(name='obnl-run',
       version='0.3.1',
 
       maintainer='The OBNL Team',
@@ -13,8 +13,6 @@ setup(name='obnl-core',
       platforms=[platform.platform()],  # TODO indicate really tested platforms
 
       install_requires=['pika', 'protobuf'],
-
-      packages=['obnl.core', 'obnl.core.impl', 'obnl.message', 'obnl.message.obnl'],
 
       description='An open tool for co-simulation',
       long_description='README.md',
